@@ -1,0 +1,48 @@
+{
+  "name": "kuaukutsu/yii2-mailgun-transpot",
+  "description": "Mailgun transport for Swift Mailer",
+  "type": "yii2-extension",
+  "license": "MIT License",
+
+  "authors": [
+    {
+      "name": "Dmitriy Krivopalov",
+      "email": "dimarik82@gmail.com"
+    }
+  ],
+
+  "support": {
+    "issues": "https://github.com/kuaukutsu/yii2-mailgun-transport/issues",
+    "source": "https://github.com/kuaukutsu/yii2-mailgun-transport"
+  },
+
+  "require": {
+    "php": ">=7.2.0",
+
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-swiftmailer": "^2.0",
+
+    "mailgun/mailgun-php": "^2.8",
+    "php-http/curl-client": "^1.7",
+    "guzzlehttp/psr7": "^1.5"
+  },
+
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "~7.3.0"
+  },
+
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "kuaukutsu\\mailgun\\transport\\": "src",
+      "kuaukutsu\\mailgun\\transport\\tests\\": "tests"
+    }
+  }
+}
