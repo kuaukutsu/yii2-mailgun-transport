@@ -1,5 +1,5 @@
 {
-  "name": "kuaukutsu/yii2-mailgun-transpot",
+  "name": "kuaukutsu/yii2-mailgun-transport",
   "description": "Mailgun transport for Swift Mailer",
   "type": "yii2-extension",
   "license": "MIT License",
