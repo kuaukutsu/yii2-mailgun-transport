@@ -1,10 +1,8 @@
 <?php
+declare(strict_types=1);
+
 namespace kuaukutsu\mailgun\transport;
 
-/**
- * Class AbstractHttpTransport
- * @package kuaukutsu\mailgun\transport
- */
 abstract class AbstractHttpTransport implements \Swift_Transport
 {
     /**

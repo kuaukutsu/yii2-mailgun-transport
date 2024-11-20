@@ -1,13 +1,11 @@
 <?php
+declare(strict_types=1);
+
 namespace kuaukutsu\mailgun\transport;
 
 use Mailgun\Mailgun;
 use Mailgun\Model\Message\SendResponse;
 
-/**
- * Class SwiftTransport
- * @package kuaukutsu\mailgun\transport
- */
 class SwiftTransport extends AbstractHttpTransport
 {
     /**
