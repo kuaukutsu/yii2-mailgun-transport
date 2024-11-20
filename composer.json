@@ -2,7 +2,7 @@
   "name": "kuaukutsu/yii2-mailgun-transport",
   "description": "Mailgun transport for Swift Mailer",
   "type": "yii2-extension",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "license": "MIT License",
   "authors": [
     {
